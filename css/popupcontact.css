@@ -1,0 +1,116 @@
+/*@import "http://fonts.googleapis.com/css?family=Raleway";
+----------------------------------------------
+CSS settings for HTML div Exact Center
+------------------------------------------------*/
+#abc {
+    width: 100%;
+    height: 100%;
+    opacity: .95;
+    display: none;
+    position: fixed;
+    background-color: #313131;
+    overflow: auto;
+    z-index: 9999 !important;
+}
+
+img#close {
+    position: absolute;
+    right: -33px;
+    top: -14px;
+    cursor: pointer
+}
+
+div#popupContact {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -215px;
+    margin-top: -290px !important;
+    //font-family : 'Raleway', sans-serif;
+    width: auto;
+    max-width: 430px;
+}
+
+#form {
+    max-width: 470px;
+    min-width: 450px;
+    padding: 10px 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    //font-family : raleway;
+    background-color: #fff
+}
+
+div#popupContact h2 {
+    background-color: #FEFFED;
+    padding: 0px 35px 5px 35px;
+    margin: 0 -50px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    color: #39C;
+}
+
+div#popupContact hr {
+    margin: 0px -50px;
+    border: 0;
+    border-top: 1px solid #ccc
+}
+
+div#popupContact input[type=text], div#popupContact input[type=email] {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #5BC0DE;
+    padding: 10px 10px 10px 40px;
+    font-size: 16px;
+    //font-family : raleway;
+}
+
+div#popupContact input[type=text]:focus, div#popupContact input[type=text]:focus, div#popupContact textarea:focus {
+    color: #0BC0DE;
+}
+
+div#popupContact #name {
+    background: url(../images/name.jpg) no-repeat 5px 7px;
+}
+
+div#popupContact #email {
+    background: url(../images/msg.png) no-repeat 5px 7px;
+}
+
+div#popupContact #subject {
+    background: url(../images/email.png) no-repeat 5px 7px;
+}
+
+div#popupContact textarea {
+    background: url(../images/email.png) no-repeat 5px 7px;
+    width: 100%;
+    height: 95px;
+    resize: none;
+    margin: 20px 0;
+    border: 1px solid #5BC0DE;
+    padding: 10px 10px 10px 40px;
+    font-size: 16px;
+    //font-family : raleway;
+}
+
+#submitbutton {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    display: block;
+    background: #5BC0DE !important;
+    color: rgb(255, 255, 255);
+    border: 1px solid #0BC0DE;
+    padding: 10px 0 !important;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-shadow: none;
+    box-shadow: none;
+    height: 50px;
+}
+
+#submitbutton:hover {
+    background-color: rgb(36, 150, 218);
+}
