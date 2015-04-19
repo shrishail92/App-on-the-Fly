@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="sweetalert-master/lib/sweet-alert.css">
     <script src="sweetalert-master/lib/sweet-alert.min.js"></script>
     <script src="js/popup.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
